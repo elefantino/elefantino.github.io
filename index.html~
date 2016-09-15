@@ -1,0 +1,416 @@
+<!DOCTYPE HTML>
+<!--
+	Prologue by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Elena Rose</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="name" content="Elena Rose">
+		<meta name="description" content="Elena Rose">		
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--<link rel="stylesheet" href="assets/css/bootstrap.css" />-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	</head>
+	<body>
+		<!-- Header -->
+			<div id="header">
+				<div class="top">
+					<!-- Logo -->
+						<div id="logo">
+							<span class="image avatar48"><img src="images/avatar.jpg" alt="" /></span>
+							<h1 id="title">Elena Rose</h1>
+							<p>Software Developer</p>
+							<p>rose.elena.mi@gmail.com</p>
+						</div>
+					<!-- Nav -->
+						<nav id="nav">
+							<!--
+								Prologue's nav expects links in one of two formats:
+								1. Hash link (scrolls to a different section within the page)
+								   <li><a href="#foobar" id="foobar-link" class="icon fa-whatever-icon-you-want skel-layers-ignoreHref"><span class="label">Foobar</span></a></li>
+								2. Standard link (sends the user to another page/site)
+								   <li><a href="http://foobar.tld" id="foobar-link" class="icon fa-whatever-icon-you-want"><span class="label">Foobar</span></a></li>
+							-->
+							<ul>
+								<li><a href="#intro" id="intro-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Intro</span></a></li>
+								<li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Portfolio</span></a></li>
+								<li><a href="#experience" id="experience-link" class="skel-layers-ignoreHref"><span class="icon fa-rocket">Experience</span></a></li>
+								<li><a href="#education" id="education-link" class="skel-layers-ignoreHref"><span class="icon fa-graduation-cap">Education</span></a></li>
+								<li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Contact</span></a></li>
+							</ul>
+						</nav>
+				</div>
+				<div class="bottom">
+					<!-- Social Icons -->
+						<ul class="icons">
+							<li><a href="https://github.com/elefantino" class="icon fa-github" target="_blank"><span class="label">Github</span></a></li>
+							<li><a href="https://fi.linkedin.com/in/elena-rose-b6103987" class="icon fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
+						</ul>
+				</div>
+			</div>
+			
+		<!-- Main -->
+			<div id="main">
+				<!-- Banner -->
+					<section id="top" class="one dark cover">
+						<div class="container">
+						</div>						
+					</section>	
+				<!-- Intro -->
+					<section id="intro" class="two">
+						<div class="container">
+							<p>I am a software developer with a large area of interest including front-end development, API development, 
+							databases, ERP systems, data analysis, and knowledge discovery algorithms. I am a person who is always curious 
+							about new things and willing to accept challenges. I believe that I can implement anything that complies with 
+							ethical norms and improves the world.</p>
+							<p>In 2015 I was granted the 
+							<a href="http://openfinlandchallenge.fi/en/2015/12/10/open-finland-challenge-awards-2015/" target="_blank">Open Finland Challenge Award</a> 
+							for opening a new horizon to trip planner developers in my application 
+							<a href="http://trafficdata.sis.uta.fi:65303/" target="_blank">Trip planner with estimation of bus connection chance</a>. 
+							In 2016 our research group received the University of Tampere's 
+							<a href="http://blogs.uta.fi/news/2016/04/29/open-traffic-data-brought-the-science-prize/" target="_blank">annual science prize</a>
+							for our ground-breaking	work on the utilization	of open traffic data.
+							</p>
+						</div>
+					</section>				
+				<!-- Portfolio -->
+					<section id="portfolio" class="three">
+						<div class="container">
+							<header>
+								<h2>Portfolio</h2>
+							</header>
+							<p>These are the projects implemented by me or in cooperation with the team members</p>
+							<div class="row">
+								<div class="4u 12u$(mobile)">
+									<article class="item">
+										<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
+										<header>
+											<h3>eHoiva app for nurse service</h3>											
+										</header>
+										<ul class="default">
+										    <li>
+												<button>Smart management of nurses and clients</button>
+											</li>
+											<li>My role 
+												<button class="purple">Front End developer</button>
+											</li>
+											<li>Skills
+											    <button class="red">JavaScript</button>
+											    <button class="red">Aurelia</button>
+												<button class="red">HTML</button>
+												<button class="red">CSS</button>
+											    <button class="red">Bootstrap</button>
+												<button class="red">JQuery</button>
+											    <button class="red">User interface design</button>
+											</li>
+											<li><a href="http://www.ehoiva.fi/" target="_blank">Customer</a></li>
+										</ul>	
+									</article>
+									<article class="item">
+										<a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
+										<header>
+											<h3>Tampere and Oulu Traffic Light REST API</h3>
+										</header>
+										<ul class="default">
+											<li> 
+												<button>REST API for traffic light data</button>
+											</li>
+											<li>My Role 
+												<button class="purple">API developer</button>
+											</li>
+											<li>Skills
+											    <button class="red">Java</button>
+											    <button class="red">API development</button>
+												<button class="red">Data analysis</button>
+											</li>
+											<li>API for <a href="http://data.itsfactory.fi/trafficlights/data/tampere" target="_blank">Tampere</a> 
+											    and <a href="http://data.itsfactory.fi/trafficlights/data/oulu" target="_blank">Oulu</a></li>
+											<li><a href="http://data.itsfactory.fi/files/trafficlights/" target="_blank">API description</a></li>
+											<li><a href="https://github.com/elefantino/REST_API_DataFeeds" target="_blank">Github repository</a></li>
+										</ul>		
+									</article>
+									<article class="item">
+										<a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
+										<header>
+											<h3>Starting Personal Information Revolution</h3>
+										</header>
+										<ul class="default">
+											<li> 
+												<button>Concept to facilitate the usage of Diory.me</button>
+											</li>
+											<li>My role  
+												<button class="purple">Project manager</button>
+											</li>
+											<li>Skills
+											    <button class="red">Project management</button>
+												<button class="red">User interface design</button>
+											</li>
+											<li><a href="http://tampere.demola.net/projects/starting-personal-information-revolution" target="_blank">Project page</a></li>
+										</ul>
+									</article>
+									<article class="item">
+										<a href="#" class="image fit"><img src="images/pic12.jpg" alt="" /></a>
+										<header>
+											<h3>CRM system for JSC Gazprom Neft</h3>
+										</header>
+										<ul class="default">
+											<li> 
+												<button>CRM system for wholesale and retail trade</button>
+											</li>
+											<li>My Role 
+												<button class="purple">Software developer</button>
+											</li>
+											<li>Skills
+											    <button class="red">1C</button>
+												<button class="red">IBM DB2</button>
+											</li>
+											<li><a href="http://www.gazprom-neft.com" target="_blank">Customer</a></li>
+										</ul>
+									</article>
+								</div>
+								<div class="4u 12u$(mobile)">
+									<article class="item">
+										<a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
+										<header>
+											<h3>Tampere Open Trip Planner</h3>
+										</header>
+										<ul class="default">
+											<li> 
+												<button>Connection chance in the trip planner</button>
+											</li>
+											<li>My role  
+												<button class="purple">Web developer</button>
+												<button class="purple">BigData specialist</button>
+												<button class="purple">Data analyst</button>
+											</li>
+											<li>Skills
+											    <button class="red">Java</button>
+											    <button class="red">JavaScript</button>
+												<button class="red">Data analysis</button>
+												<button class="red">Statistical inference</button>
+												<button class="red">MapReduce</button>
+												<button class="red">HBase</button>
+											</li>
+											<li><a href="http://trafficdata.sis.uta.fi:65303/" target="_blank">Application</a> Note! Select dates from 01.09.2015 up to 31.05.2016</li>											
+											<li><a href="https://github.com/elefantino/OpenTripPlannerWithChanceOfConnection" target="_blank">Github repository</a></li>
+										</ul>										
+									</article>
+									<article class="item">
+										<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
+										<header>
+											<h3>Re-designing Claims Notification</h3>
+										</header>
+										<ul class="default">
+											<li>
+												<button>Design of insurance claim notification</button>
+											</li>
+											<li>My role 
+												<button class="purple">Project manager</button>
+											</li>
+											<li>Skills
+											    <button class="red">Project management</button>
+											    <button class="red">User interface design</button>
+											</li>
+											<li><a href="http://tampere.demola.net/projects/re-designing-claims-notification" target="_blank">Project page</a></li>
+											<li><a href="https://www.op.fi/" target="_blank">Customer</a></li>
+										</ul>										
+									</article>	
+									<article class="item">
+										<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
+										<header>
+											<h3>Puzzle game for Android</h3>
+										</header>
+										<ul class="default">
+											<li> 
+												<button>Information science puzzles in the game</button>
+											</li>
+											<li>My Role 
+												<button class="purple">Software developer</button>
+											</li>
+											<li>Skills
+											    <button class="red">Java</button>
+												<button class="red">Android</button>
+												<button class="red">LibGDX</button>
+											    <button class="red">User interface design</button>
+											</li>
+											<li><a href="https://www.youtube.com/watch?v=pB7uS_K57uE" target="_blank">Demo</a></li>
+										</ul>
+									</article>									
+								</div>
+								<div class="4u$ 12u$(mobile)">
+									<article class="item">
+										<a href="#" class="image fit"><img src="images/pic09.jpg" alt="" /></a>
+										<header>
+											<h3>Bus Data Collector</h3>
+										</header>
+										<ul class="default">
+											<li> 
+												<button>Collecting open bus data in Tampere</button>
+											</li>
+											<li>My role  
+												<button class="purple">Software developer</button>
+											</li>
+											<li>Skills
+											    <button class="red">Java</button>
+												<button class="red">HBase</button>
+												<button class="red">Postgre SQL</button>
+											</li>
+										</ul>
+									</article>
+									<article class="item">
+										<a href="#" class="image fit"><img src="images/pic10.jpg" alt="" /></a>
+										<header>
+											<h3>Traffic Light and Detectors Data Collector</h3>
+										</header>
+										<ul class="default">
+											<li> 
+												<button>Collecting and saving traffic light and detectors data in Tampere and Oulu</button>
+											</li>
+											<li>My role  
+												<button class="purple">Software developer</button>
+											</li>
+											<li>Skills
+											    <button class="red">Java</button>
+												<button class="red">HBase</button>
+												<button class="red">Postgre SQL</button>
+											</li>
+										</ul>
+									</article>															
+									<article class="item">
+										<a href="#" class="image fit"><img src="images/pic11.jpg" alt="" /></a>
+										<header>
+											<h3>Petrol card integration to ERP system</h3>
+										</header>
+										<ul class="default">
+											<li> 
+												<button>Creating interfaces between petrol card processing system and ERP systems</button>
+											</li>
+											<li>My Role 
+												<button class="purple">Software developer</button>
+											</li>
+											<li>Skills
+											    <button class="red">1C</button>
+												<button class="red">SQL</button>
+											    <button class="red">Sybase</button>
+												<button class="red">IBM DB2</button>
+												<button class="red">Data integration</button>
+											</li>
+											<li><a href="http://www.gpncard.ru" target="_blank">Customer</a></li>
+										</ul>
+									</article>
+									<article class="item">
+										<a href="#" class="image fit"><img src="images/pic13.jpg" alt="" /></a>
+										<header>
+											<h3>Quiz application</h3>
+										</header>
+										<ul class="default">
+											<li> 
+												<button>Quiz and exam application</button>
+											</li>
+											<li>My Role 
+												<button class="purple">Web developer</button>
+											</li>
+											<li>Skills
+											    <button class="red">JavaScript</button>
+											    <button class="red">PHP</button>
+												<button class="red">HTML</button>
+												<button class="red">CSS</button>
+											    <button class="red">User interface design</button>
+												<button class="red">MySQL</button>
+											</li>
+											<li><a href="http://test.utmn.ru/" target="_blank">Application</a></li>
+										</ul>
+									</article>
+								</div>
+							</div>
+						</div>
+					</section>
+				<!-- Experience -->
+					<section id="experience" class="two">
+						<div class="container">
+							<header>
+								<h2>Experience</h2>
+							</header>
+							<ul class="default">
+								<li><b>04/2016 – now</b> Front End developer in eSeteli Palveluverkko Oy (Finland) </li>
+								<li><b>09/2014 – 12/2015</b> Research Assistant in University of Tampere (Finland) </li>
+								<li><b>09/2014 – 01/2015</b> Project Manager in Demola (Finland) </li>
+								<li><b>06/2014 – 08/2015</b> Intern in University of Tampere (Finland) </li>
+								<li><b>02/2014 – 05/2014</b> Project Manager in Demola (Finland) </li>
+								<li><b>01/2007 – 08/2013</b> ERP Systems Developer in JSC Gazprom Neft (Russia) </li>
+								<li><b>09/2006 - 06/2008</b> Part-time teacher of Informatics and Network Technologies in Tyumen State Institute of World Economy, Management, and Law (Russia) </li>
+								<li><b>05/2005 - 11/2006</b> Software Developer in Diakom and Intechaero (Russia) </li>
+								<li><b>12/2003 - 04/2005</b> Software Developer in Tyumen State University (Russia) </li>
+							</ul>
+						</div>
+					</section>	
+				<!-- Education -->
+					<section id="education" class="three">
+						<div class="container">
+							<header>
+								<h2>Education</h2>
+							</header>
+							<a href="http://www.uta.fi" target="_blank"><img src="images/logo03.jpg" alt="" /></a>
+							<a href="http://www.utmn.ru/en/" target="_blank"><img src="images/logo02.jpg" alt="" /></a>
+							<img src="images/logo01.jpg" alt="" />
+							<ul class="default">
+								<li><b>08/2013 – now</b> Master’s Degree in Software Development, University of Tampere (Tampere, Finland)</li>
+								<li><b>09/2009 - 06/2012</b> Bachelor’s degree in Biology, Tyumen State University (Tyumen, Russia)</li>
+								<li><b>09/2001 - 06/2006</b> Bachelor’s degree in Applied Computer Science, Tyumen State Institute of World Economy, Management, and Law, Tyumen (Tyumen, Russia)</li>
+							</ul>
+							<h4>Courses</h4>
+							<br/>
+							<a href="https://www.coursera.org/learn/statistical-inference/home" target="_blank"><img src="images/logo16.jpg" alt="" /></a>
+							<a href="http://www.fudan.edu.cn/en/" target="_blank"><img src="images/logo15.jpg" alt="" /></a>
+							<a href="http://www.ibm.com/analytics/us/en/technology/db2/" target="_blank"><img src="images/logo12.jpg" alt="" /></a>
+							<a href="https://www.unistrapg.it/" target="_blank"><img src="images/logo9.jpg" alt="" /></a>
+							<a href="http://pmpractice.ru/" target="_blank"><img src="images/logo8.png" alt="" /></a>
+							<a href="http://www.cisco.com/c/en/us/index.html" target="_blank"><img src="images/logo5.jpg" alt="" /></a>
+							<a href="http://www.wipo.int/academy/en/" target="_blank"><img src="images/logo4.jpg" alt="" /></a>
+							<ul class="default">
+								<li><b>2016</b> Statistical Inference, online course in Johns Hopkins University (Baltimore, USA)</li>
+								<li><b>2015</b> Doing Business in China, exchange programme in Fudan University (Shanghai, China)</li>
+								<li><b>2012</b> IBM DB2 Administration boot camp (Omsk, Russia)</li>
+								<li><b>2009</b> Italian language and culture in Universita per Stranieri(Perugia, Italy)</li>
+								<li><b>2008</b> Project Management (Moscow, Russia)</li>
+								<li><b>2005</b> Cisco Certified Network Associate (passed CCNA exam, Tyumen, Russia)</li>
+								<li><b>2004</b> Intellectual Property, online course in WIPO Academy (Geneva, Switzerland)</li>
+							</ul>
+						</div>
+					</section>	
+				<!-- Contact -->
+					<section id="contact" class="two">
+						<div class="container">
+							<header>
+								<h2>Contact</h2>
+							</header>
+							<ul class="default">
+								<li><b>E-mail:</b> rose.elena.mi@gmail.com</li>	
+								<li><b>Location:</b> Tampere, Finland</li>
+							</ul>	
+						</div>
+					</section>
+			</div>
+		<!-- Footer -->
+			<div id="footer">
+				<!-- Copyright -->
+					<ul class="copyright">
+						<li>&copy; Elena Rose. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+			</div>
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollzer.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+	</body>
+</html>
